@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+
+
+/* * {margin: 0;  box-sizing: border-box} padding: 0;  input 두께 */
+
+body{
+	margin: 0;
+	background: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	box-sizing: border-box
+}
+
+a{text-decoration: none;}
+
+.login {
+    background-color: #353535;
+    /* height: 40px; */
+    /* border:1px solid red;   //툴 생성 */
+}
+.top {margin: 0 20%;}
+
+.top input{
+	width: 12%;
+	margin-left: 1%;
+	margin-right: 15%;
+	margin-bottom: 7px;
+	/* background-color:transparent; */
+}
+
+/* //로그인 버튼 */
+.top .btn-log{
+	color: white;
+	font-family: "Leelawadee UI Semilight";
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+.login input::-webkit-input-placeholder {
+	size: 50%;
+}
+.su{
+	font-family: "Leelawadee UI Semilight";
+	font-size: 20px;
+	margin-left: 50px;
+	color: white;
+}
+
+.num {margin: 0 20%;}
+
+.num h1 {
+	margin: 5% 0;
+	text-align: center;
+	
+		
+}
+/*로또 번호 생성 */
+.ball{
+	margin: 0 20%;
+	/* flex-direction: row; */
+	display: flex;
+	justify-content: space-around;	
+}
+
+.item {
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 38spx;
+}
+
+.item1 {
+	background: pink;
+
+}
+
+
+
